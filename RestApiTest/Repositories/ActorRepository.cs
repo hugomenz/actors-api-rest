@@ -14,14 +14,14 @@ namespace RestApiTest.Repositories
 
     public class ActorRepository : IActorRepository
     {
-        const string JSON_PATH = @"C:\Users\Hugo_\Documents\fullStack\__\RestApiTest\RestApiTest\Resources\Actores.json";
+        const string JSON_PATH = @"C:\Users\Hugo_\Documents\fullStack\__\actors-api-rest\RestApiTest\Resources\Actores.json";
         public void AddActor(Actor actor)
         {
             var actores = GetActors();
             var existeActor = actores.Exists(a => a.Id == actor.Id);
             if (existeActor)
             {
-                throw new Exception("Ya existe un autor con ese id");
+                throw new Exception("Actor with that ID already exists!");
             }
             actores.Add(actor);
             UpdateActores(actores);
@@ -33,7 +33,7 @@ namespace RestApiTest.Repositories
             var indiceActor = actores.FindIndex(a => a.Id == id);
 
             if (indiceActor < 0)
-                throw new Exception("Actor no existente");
+                throw new Exception("Actor does not exist");
 
             actores.RemoveAt(indiceActor);
             UpdateActores(actores);

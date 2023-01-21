@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\RestApiTest\\RestApiTest\\RestApiTest.csproj": {}
+    "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\actors-api-rest\\RestApiTest\\RestApiTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\RestApiTest\\RestApiTest\\RestApiTest.csproj": {
+    "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\actors-api-rest\\RestApiTest\\RestApiTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\RestApiTest\\RestApiTest\\RestApiTest.csproj",
+        "projectUniqueName": "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\actors-api-rest\\RestApiTest\\RestApiTest.csproj",
         "projectName": "RestApiTest",
-        "projectPath": "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\RestApiTest\\RestApiTest\\RestApiTest.csproj",
+        "projectPath": "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\actors-api-rest\\RestApiTest\\RestApiTest.csproj",
         "packagesPath": "C:\\Users\\Hugo_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\RestApiTest\\RestApiTest\\obj\\",
+        "outputPath": "C:\\Users\\Hugo_\\Documents\\fullStack\\__\\actors-api-rest\\RestApiTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hugo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
